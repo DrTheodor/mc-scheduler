@@ -18,7 +18,7 @@ maven {
 
 Add the dependency:
 ```groovy
-include(modImplementation("com.github.DrTheodor:mc-scheduler:v1.0.0"))
+include(modImplementation("com.github.DrTheodor:mc-scheduler:1.0.0"))
 ```
 
 To schedule a client task use `ClientScheduler`. `ClientScheduler` clears the tasks if they are either marked as finished (cancelled).
