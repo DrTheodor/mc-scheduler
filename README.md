@@ -1,5 +1,6 @@
 # Scheduler Mod
-A FabricMC library mod, that allows you to schedule tasks.
+
+A MC library mod, that allows you to schedule tasks.
 
 ## Example Usage
 
@@ -18,7 +19,7 @@ maven {
 
 Add the dependency:
 ```groovy
-include(modImplementation("com.github.DrTheodor:mc-scheduler:v1.0.1"))
+include(modImplementation("com.github.DrTheodor:mc-scheduler:v1.1.0"))
 ```
 
 To schedule a client task use `ClientScheduler`. `ClientScheduler` clears the tasks if they are either marked as finished (cancelled).

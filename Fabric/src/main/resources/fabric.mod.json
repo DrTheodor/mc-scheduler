@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "scheduler",
+  "version": "${version}",
+  "name": "Scheduler",
+  "description": "Library for scheduling tasks",
+  "authors": [
+    "DrTheo_ (@dr.theo - discord",
+    "duzo - (@duzo. - discord)"
+  ],
+  "contact": {
+    "sources": "https://github.com/DrTheodor/mc-scheduler"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/scheduler/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.drtheo.scheduler.SchedulerModFabric"
+    ]
+  },
+  "mixins": [
+    "scheduler.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13",
+    "fabric": "*",
+    "minecraft": ">=1.18",
+    "java": ">=17"
+  },
+  "suggests": {
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/CvSkNeQ9uj"
+      },
+      "badges": [
+        "library"
+      ]
+    }
+  }
+}
+  
