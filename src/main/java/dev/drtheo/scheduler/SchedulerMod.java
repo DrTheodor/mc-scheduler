@@ -1,6 +1,6 @@
 package dev.drtheo.scheduler;
 
-import dev.drtheo.scheduler.api.Scheduler;
+import dev.drtheo.scheduler.api.common.Scheduler;
 import net.fabricmc.api.ModInitializer;
 
 public class SchedulerMod implements ModInitializer {
