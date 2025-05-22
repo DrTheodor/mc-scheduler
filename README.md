@@ -8,11 +8,7 @@ A FabricMC library mod, that allows you to schedule tasks.
 Add the jitpack maven repository:
 ```groovy
 maven {
-    url "https://jitpack.io"
-
-    metadataSources {
-        artifact() // Look directly for artifact
-    }
+    url "https://theo.is-a.dev/maven-repo/"
 }
 ```
 
